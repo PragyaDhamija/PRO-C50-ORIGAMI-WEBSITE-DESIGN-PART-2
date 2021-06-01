@@ -1,0 +1,39 @@
+h1{
+    color : blue;
+    display : flex;
+    justify-content: center;
+}
+body{
+    background-color : lightblue;
+    background-image: url("background.jpg");
+}
+h4{
+    color : purple;
+    font-family: comic sans ms;
+}
+
+ul{
+    color : green;
+}
+.menu{
+    display : flex;
+    justify-content: space-between;
+    background-color : darkblue;
+    color: white
+}
+.menu a{
+    color: white;
+}
+.grid{
+    display : flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.container{
+    border: solid;
+    border-radius: 50px;
+    border-color: #0000FF;
+    background-color: white;
+    width: 310px;
+}
